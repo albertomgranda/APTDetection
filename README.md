@@ -1,4 +1,4 @@
-# DESIGN OF AN INTRUSION DETECTION SYSTEM FOR ADVANCED PERSITENT THREATS BASED ON MACHINE LEARNING TECHNIQUES
+# Design of an Intrusion Detection System for Advanced Persistent Threats based on Machine Learning techniques
 Alberto Martín Granda
 
 GITST - ETSI Telecomunicación - UPM
