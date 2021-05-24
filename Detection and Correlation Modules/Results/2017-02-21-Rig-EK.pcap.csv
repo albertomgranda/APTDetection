@@ -1,0 +1,18 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,02/21/2017,20:47:12.149479,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,195.161.114.179,80,192.168.1.7,49212
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:15.260669,1,2023401,7,ET EXPLOIT_KIT RIG EK URI struct Oct 24 2016  (RIG-v) ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49216,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:15.260669,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49216,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:15.260669,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49216,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:07.800626,1,2023401,7,ET EXPLOIT_KIT RIG EK URI struct Oct 24 2016  (RIG-v) ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:07.800626,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:07.800626,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:08.875676,1,2023401,7,ET EXPLOIT_KIT RIG EK URI struct Oct 24 2016  (RIG-v) ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:08.875676,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:08.875676,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:11.949075,1,2023196,2,ET EXPLOIT_KIT RIG EK Landing Sep 12 2016 T2 ,Exploit Kit Activity Detected,1,TCP,195.161.114.179,80,192.168.1.7,49212
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:11.949075,1,2024021,2,ET EXPLOIT_KIT RIG EK Landing Feb 26 2016 ,Exploit Kit Activity Detected,1,TCP,195.161.114.179,80,192.168.1.7,49212
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:12.147213,1,2023401,7,ET EXPLOIT_KIT RIG EK URI struct Oct 24 2016  (RIG-v) ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:12.147213,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:12.147213,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.1.7,49212,195.161.114.179,80
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:02.158735,1,2022962,4,ET EXPLOIT_KIT Evil Redirector Leading to EK Jul 12 2016 ,Exploit Kit Activity Detected,1,TCP,50.62.232.1,80,192.168.1.7,49204
+Exploit Kit Alert,Exploitation,02/21/2017,20:47:02.158735,1,2024092,3,ET EXPLOIT_KIT Evil Redirector Leading to EK March 15 2017 ,Exploit Kit Activity Detected,1,TCP,50.62.232.1,80,192.168.1.7,49204

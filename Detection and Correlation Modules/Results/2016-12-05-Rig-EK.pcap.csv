@@ -1,0 +1,28 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,12/05/2016,19:36:10.138907,1,2022894,8,ET HUNTING SUSPICIOUS Firesale gTLD IE Flash request to set non-standard filename (some overlap with 2021752) ,A Network Trojan was detected,1,TCP,192.168.1.162,49211,185.162.8.79,80
+Exe Alert,Delivery,12/05/2016,19:36:10.139010,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,185.162.8.79,80,192.168.1.162,49211
+Exe Alert,Delivery,12/05/2016,19:36:35.513612,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Exploit Kit Alert,Exploitation,12/05/2016,19:36:09.493961,1,2020722,4,ET EXPLOIT_KIT RIG Landing URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.1.162,49211,185.162.8.79,80
+Exploit Kit Alert,Exploitation,12/05/2016,19:36:09.725112,1,2023198,3,ET EXPLOIT_KIT RIG EK Landing Sep 13 2016 (b641) ,Exploit Kit Activity Detected,1,TCP,185.162.8.79,80,192.168.1.162,49211
+Exploit Kit Alert,Exploitation,12/05/2016,19:36:09.725112,1,2023199,3,ET EXPLOIT_KIT RIG EK Landing Sep 13 2016 (b642) ,Exploit Kit Activity Detected,1,TCP,185.162.8.79,80,192.168.1.162,49211
+Exploit Kit Alert,Exploitation,12/05/2016,19:36:10.138907,1,2020721,4,ET EXPLOIT_KIT RIG Exploit URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.1.162,49211,185.162.8.79,80
+Exploit Kit Alert,Exploitation,12/05/2016,19:36:12.163161,1,2020720,3,ET EXPLOIT_KIT RIG Payload URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.1.162,49214,185.162.8.79,80
+Malware Alert,Installation,12/05/2016,19:37:44.940600,1,2024533,3,ET MALWARE [PTsecurity] Gozi/Ursnif Payload v12 ,A Network Trojan was detected,1,TCP,62.149.140.138,80,192.168.1.162,49219
+Malware Alert,Installation,12/05/2016,19:36:34.717109,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.1.162,49216,81.4.108.169,80
+Malware Alert,Installation,12/05/2016,19:36:35.365562,1,2022566,6,ET MALWARE Possible Malicious Macro EXE DL AlphaNumL ,A Network Trojan was detected,1,TCP,192.168.1.162,49217,217.160.34.53,80
+Malware Alert,Installation,12/05/2016,19:36:35.365593,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:35.365593,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:35.365593,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:35.513612,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:35.513612,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:35.513612,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:35.513612,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,217.160.34.53,80,192.168.1.162,49217
+Malware Alert,Installation,12/05/2016,19:36:39.270704,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,81.4.108.169,80,192.168.1.162,49216
+Malware Alert,Installation,12/05/2016,19:38:07.232870,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.1.162,49224,81.4.108.169,80
+Malware Alert,Installation,12/05/2016,19:39:27.878741,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.1.162,49312,81.4.108.169,80
+SSL Alert,Command and Control,12/05/2016,19:37:53.620578,1,2028398,2,ET JA3 Hash - Possible Malware - Various Malspam/RigEK/Dreambot ,Unknown Traffic,3,TCP,192.168.1.162,49222,193.23.244.244,443
+SSL Alert,Command and Control,12/05/2016,19:37:53.620578,1,2028814,2,ET JA3 Hash - [Abuse.ch] Possible Gozi ,Unknown Traffic,3,TCP,192.168.1.162,49222,193.23.244.244,443
+SSL Alert,Command and Control,12/05/2016,19:38:26.819504,1,2028398,2,ET JA3 Hash - Possible Malware - Various Malspam/RigEK/Dreambot ,Unknown Traffic,3,TCP,192.168.1.162,49305,62.210.82.44,21
+SSL Alert,Command and Control,12/05/2016,19:38:26.819504,1,2028814,2,ET JA3 Hash - [Abuse.ch] Possible Gozi ,Unknown Traffic,3,TCP,192.168.1.162,49305,62.210.82.44,21
+Policy Alert,Data Exfiltartion,12/05/2016,19:36:10.138907,1,2014726,127,ET POLICY Outdated Flash Version M1 ,Potential Corporate Privacy Violation,1,TCP,192.168.1.162,49211,185.162.8.79,80
+Policy Alert,Data Exfiltartion,12/05/2016,19:36:35.513612,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,217.160.34.53,80,192.168.1.162,49217

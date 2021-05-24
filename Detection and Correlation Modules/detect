@@ -1,0 +1,127 @@
+import sys
+from subprocess import call
+import time
+import pandas as pd
+
+#Selección de PCAP
+
+pcap = str(sys.argv[1])
+
+#Deteción Fase 1
+
+call(["sudo","suricata","-r",pcap,"-S","DM/1.Reconnaissance/Scan.rules"])
+
+call(["mv","fast.log","DM/1.Reconnaissance"])
+
+call(["python3", "DM/1.Reconnaissance/parse"])
+
+#Deteción Fase 2
+
+
+#Deteción Fase 3
+
+call(["sudo","suricata","-r",pcap,"-S","DM/3.Delivery/Phishing/Phishing.rules"])
+
+call(["mv","fast.log","DM/3.Delivery/Phishing"])
+
+call(["python3", "DM/3.Delivery/Phishing/parse"])
+
+call(["sudo","suricata","-r",pcap,"-S","DM/3.Delivery/Exe/Exe.rules"])
+
+call(["mv","fast.log","DM/3.Delivery/Exe"])
+
+call(["python3", "DM/3.Delivery/Exe/parse"])
+
+
+#Deteción Fase 4
+
+call(["sudo","suricata","-r",pcap,"-S","DM/4.Exploitation/Exploit/Exploit.rules"])
+
+call(["mv","fast.log","DM/4.Exploitation/Exploit"])
+
+call(["python3", "DM/4.Exploitation/Exploit/parse"])
+
+call(["sudo","suricata","-r",pcap,"-S","DM/4.Exploitation/ExploitKit/ExploitKit.rules"])
+
+call(["mv","fast.log","DM/4.Exploitation/ExploitKit"])
+
+call(["python3", "DM/4.Exploitation/ExploitKit/parse"])
+
+
+#Deteción Fase 5
+
+call(["sudo","suricata","-r",pcap,"-S","DM/5.Installation/Malware.rules"])
+
+call(["mv","fast.log","DM/5.Installation"])
+
+call(["python3", "DM/5.Installation/parse"])
+
+#Deteción Fase 6
+
+call(["sudo","suricata","-r",pcap,"-S","DM/6.C2/C2/C2.rules"])
+
+call(["mv","fast.log","DM/6.C2/C2"])
+
+call(["python3", "DM/6.C2/C2/parse"])
+
+call(["sudo","suricata","-r",pcap,"-S","DM/6.C2/SSL/SSL.rules"])
+
+call(["mv","fast.log","DM/6.C2/SSL"])
+
+call(["python3", "DM/6.C2/SSL/parse"])
+
+#Deteción Fase 7
+
+call(["sudo","suricata","-r",pcap,"-S","DM/7.Actions/Tor/tor.rules"])
+
+call(["mv","fast.log","DM/7.Actions/Tor"])
+
+call(["python3", "DM/7.Actions/Tor/parse"])
+
+call(["sudo","suricata","-r",pcap,"-S","DM/7.Actions/Policy/policy.rules"])
+
+call(["mv","fast.log","DM/7.Actions/Policy"])
+
+call(["python3", "DM/7.Actions/Policy/parse"])
+
+
+#Combinación de CSVs
+
+logs1 = pd.read_csv("DM/1.Reconnaissance/logs1.csv")
+logs31 = pd.read_csv("DM/3.Delivery/Phishing/logs3.csv")
+logs32 = pd.read_csv("DM/3.Delivery/Exe/logs3.csv")
+logs41 = pd.read_csv("DM/4.Exploitation/Exploit/logs4.csv")
+logs42 = pd.read_csv("DM/4.Exploitation/ExploitKit/logs4.csv")
+logs5 = pd.read_csv("DM/5.Installation/logs5.csv")
+logs61 = pd.read_csv("DM/6.C2/C2/logs6.csv")
+logs62 = pd.read_csv("DM/6.C2/SSL/logs6.csv")
+logs71 = pd.read_csv("DM/7.Actions/Tor/logs7.csv")
+logs72 = pd.read_csv("DM/7.Actions/Policy/logs7.csv")
+
+res=pd.concat([logs1,logs31,logs32,logs41,logs42,logs5,logs61,logs62,logs71,logs72])
+
+res.to_csv(pcap + ".csv", index=False, encoding='utf-8-sig')
+
+call(["mv",pcap + ".csv","Results"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

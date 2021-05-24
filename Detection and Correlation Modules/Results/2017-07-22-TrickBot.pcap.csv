@@ -1,0 +1,5 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Malware Alert,Installation,07/22/2017,11:11:08.573715,1,2019833,7,ET MALWARE Possible Dyre SSL Cert (fake state) ,A Network Trojan was detected,1,TCP,95.213.251.135,443,192.168.1.22,49180
+SSL Alert,Command and Control,07/22/2017,11:11:08.363208,1,2028401,2,ET JA3 Hash - Possible Malware - Various Trickbot/Kovter/Dridex ,Unknown Traffic,3,TCP,192.168.1.22,49180,95.213.251.135,443
+SSL Alert,Command and Control,07/22/2017,11:13:33.790242,1,2028401,2,ET JA3 Hash - Possible Malware - Various Trickbot/Kovter/Dridex ,Unknown Traffic,3,TCP,192.168.1.22,49194,91.206.4.216,447
+Policy Alert,Data Exfiltartion,07/22/2017,11:11:07.339988,1,2019737,4,ET POLICY IP Check wtfismyip.com ,Potential Corporate Privacy Violation,1,TCP,192.168.1.22,49179,158.69.26.138,80

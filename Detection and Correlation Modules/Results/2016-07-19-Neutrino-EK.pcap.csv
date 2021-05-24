@@ -1,0 +1,7 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,07/19/2016,16:45:53.335834,1,2022894,8,ET HUNTING SUSPICIOUS Firesale gTLD IE Flash request to set non-standard filename (some overlap with 2021752) ,A Network Trojan was detected,1,TCP,192.168.2.40,49987,85.93.0.12,80
+Exe Alert,Delivery,07/19/2016,16:45:53.376854,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,85.93.0.12,80,192.168.2.40,49987
+Exe Alert,Delivery,07/19/2016,16:45:55.229923,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,74.63.195.115,80,192.168.2.40,49990
+Exe Alert,Delivery,07/19/2016,16:45:56.197876,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,74.63.195.115,80,192.168.2.40,49990
+Exploit Kit Alert,Exploitation,07/19/2016,16:45:52.305256,1,2022479,3,ET EXPLOIT_KIT EITest Evil Redirect Leading to EK Feb 01 2016 ,Exploit Kit Activity Detected,1,TCP,62.138.139.110,80,192.168.2.40,49947
+Policy Alert,Data Exfiltartion,07/19/2016,16:45:53.335834,1,2014726,127,ET POLICY Outdated Flash Version M1 ,Potential Corporate Privacy Violation,1,TCP,192.168.2.40,49987,85.93.0.12,80

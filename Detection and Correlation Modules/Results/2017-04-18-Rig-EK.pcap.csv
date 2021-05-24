@@ -1,0 +1,137 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,04/18/2017,18:37:17.263839,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,92.53.104.104,80,192.168.2.19,49507
+Exe Alert,Delivery,04/18/2017,18:37:31.740347,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49510,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:33.867877,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49511
+Exe Alert,Delivery,04/18/2017,18:37:33.867877,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Exe Alert,Delivery,04/18/2017,18:37:40.445859,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49512,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:54.870338,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49521,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:56.098049,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49525,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:48.955458,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49513,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:52.908791,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49515,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:53.941773,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49516,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:54.003336,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49519,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:37:54.666746,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49522,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:38:11.894233,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49531,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:38:12.869203,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49535,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:38:58.419063,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49538
+Exe Alert,Delivery,04/18/2017,18:38:58.419063,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Exe Alert,Delivery,04/18/2017,18:39:13.983021,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49539,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:38:57.220705,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49537,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:40:21.423388,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49544,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:39:14.806685,1,2025097,4,ET INFO HTTP POST Request to Suspicious *.gdn Domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49543,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:41:45.993221,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49546,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:40:22.523318,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49545
+Exe Alert,Delivery,04/18/2017,18:40:22.523318,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Exe Alert,Delivery,04/18/2017,18:41:47.095556,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49547
+Exe Alert,Delivery,04/18/2017,18:41:47.095556,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Exe Alert,Delivery,04/18/2017,18:44:36.995097,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49551
+Exe Alert,Delivery,04/18/2017,18:44:36.995097,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Exe Alert,Delivery,04/18/2017,18:43:09.724146,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49548,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:43:11.494568,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49549
+Exe Alert,Delivery,04/18/2017,18:43:11.494568,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Exe Alert,Delivery,04/18/2017,18:46:00.144223,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49554,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:44:35.549753,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.2.19,49550,51.141.33.47,80
+Exe Alert,Delivery,04/18/2017,18:46:01.608245,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,51.141.33.47,80,192.168.2.19,49555
+Exe Alert,Delivery,04/18/2017,18:46:01.608245,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Exploit Kit Alert,Exploitation,04/18/2017,18:37:13.592944,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.2.19,49507,92.53.104.104,80
+Exploit Kit Alert,Exploitation,04/18/2017,18:37:13.592944,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.2.19,49507,92.53.104.104,80
+Exploit Kit Alert,Exploitation,04/18/2017,18:37:17.263719,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.2.19,49507,92.53.104.104,80
+Exploit Kit Alert,Exploitation,04/18/2017,18:37:17.263719,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.2.19,49507,92.53.104.104,80
+Exploit Kit Alert,Exploitation,04/18/2017,18:37:20.093477,1,2024048,5,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.2.19,49509,92.53.104.104,80
+Exploit Kit Alert,Exploitation,04/18/2017,18:37:20.093477,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.2.19,49509,92.53.104.104,80
+Malware Alert,Installation,04/18/2017,18:37:31.740347,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49510,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:37:31.740347,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49510,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:37:33.640998,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:33.640998,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:33.640998,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:33.867877,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:33.867877,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:33.867877,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:33.867877,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Malware Alert,Installation,04/18/2017,18:37:54.666746,1,2016858,11,ET MALWARE Generic - POST To .php w/Extended ASCII Characters (Likely Zeus Derivative) ,A Network Trojan was detected,1,TCP,192.168.2.19,49522,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:37:53.417070,1,2016858,11,ET MALWARE Generic - POST To .php w/Extended ASCII Characters (Likely Zeus Derivative) ,A Network Trojan was detected,1,TCP,192.168.2.19,49515,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:40:21.423388,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49544,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:40:21.423388,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49544,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:41:26.421682,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49544
+Malware Alert,Installation,04/18/2017,18:41:46.875331,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:41:46.875331,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:41:46.875331,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:41:47.095556,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:41:47.095556,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:41:47.095556,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:41:47.095556,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Malware Alert,Installation,04/18/2017,18:43:11.275571,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:43:11.275571,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:43:11.275571,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:38:36.733409,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49510
+Malware Alert,Installation,04/18/2017,18:43:11.494568,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:43:11.494568,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:43:11.494568,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:43:11.494568,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Malware Alert,Installation,04/18/2017,18:38:57.220705,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49537,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:38:57.220705,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49537,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:38:58.199783,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:38:58.199783,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:38:58.199783,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:44:35.549753,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49550,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:44:35.549753,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49550,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:38:58.419063,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:38:58.419063,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:38:58.419063,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:38:58.419063,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Malware Alert,Installation,04/18/2017,18:44:36.590468,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:44:36.590468,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:44:36.590468,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:44:36.995097,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:44:36.995097,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:44:36.995097,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:44:36.995097,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49551
+Malware Alert,Installation,04/18/2017,18:45:40.406523,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49550
+Malware Alert,Installation,04/18/2017,18:46:00.144223,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49554,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:46:00.144223,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49554,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:39:13.983021,1,2016858,11,ET MALWARE Generic - POST To .php w/Extended ASCII Characters (Likely Zeus Derivative) ,A Network Trojan was detected,1,TCP,192.168.2.19,49539,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:39:41.641758,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49537
+Malware Alert,Installation,04/18/2017,18:40:22.259039,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:40:22.259039,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:40:22.259039,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:40:22.523318,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:40:22.523318,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:40:22.523318,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:40:22.523318,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Malware Alert,Installation,04/18/2017,18:41:45.993221,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49546,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:41:45.993221,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49546,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:42:17.049089,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49546
+Malware Alert,Installation,04/18/2017,18:43:09.724146,1,2023203,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49548,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:43:09.724146,1,2024452,5,ET MALWARE Quant Loader Download Request ,A Network Trojan was detected,1,TCP,192.168.2.19,49548,51.141.33.47,80
+Malware Alert,Installation,04/18/2017,18:44:14.524408,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49548
+Malware Alert,Installation,04/18/2017,18:46:01.081525,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:46:01.081525,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:46:01.081525,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:46:01.608245,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:46:01.608245,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:46:01.608245,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:46:01.608245,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Malware Alert,Installation,04/18/2017,18:37:07.756776,1,2024206,4,ET MALWARE Quant Loader Download Response M2 ,A Network Trojan was detected,1,TCP,51.141.33.47,80,192.168.2.19,49554
+SSL Alert,Command and Control,04/18/2017,18:37:54.910380,1,2028399,2,ET JA3 Hash - Possible Malware - Various RigEK/Cryptowall/Dridex ,Unknown Traffic,3,TCP,192.168.2.19,49523,78.142.142.246,443
+SSL Alert,Command and Control,04/18/2017,18:37:54.910380,1,2028809,2,ET JA3 Hash - [Abuse.ch] Possible Ransomware ,Unknown Traffic,3,TCP,192.168.2.19,49523,78.142.142.246,443
+SSL Alert,Command and Control,04/18/2017,18:37:55.497934,1,2028399,2,ET JA3 Hash - Possible Malware - Various RigEK/Cryptowall/Dridex ,Unknown Traffic,3,TCP,192.168.2.19,49524,46.165.230.5,443
+SSL Alert,Command and Control,04/18/2017,18:37:55.497934,1,2028809,2,ET JA3 Hash - [Abuse.ch] Possible Ransomware ,Unknown Traffic,3,TCP,192.168.2.19,49524,46.165.230.5,443
+SSL Alert,Command and Control,04/18/2017,18:37:59.551505,1,2028399,2,ET JA3 Hash - Possible Malware - Various RigEK/Cryptowall/Dridex ,Unknown Traffic,3,TCP,192.168.2.19,49527,188.165.5.14,443
+SSL Alert,Command and Control,04/18/2017,18:37:59.551505,1,2028809,2,ET JA3 Hash - [Abuse.ch] Possible Ransomware ,Unknown Traffic,3,TCP,192.168.2.19,49527,188.165.5.14,443
+SSL Alert,Command and Control,04/18/2017,18:37:59.873805,1,2028399,2,ET JA3 Hash - Possible Malware - Various RigEK/Cryptowall/Dridex ,Unknown Traffic,3,TCP,192.168.2.19,49528,176.9.38.38,9001
+SSL Alert,Command and Control,04/18/2017,18:37:59.873805,1,2028809,2,ET JA3 Hash - [Abuse.ch] Possible Ransomware ,Unknown Traffic,3,TCP,192.168.2.19,49528,176.9.38.38,9001
+SSL Alert,Command and Control,04/18/2017,18:37:57.991704,1,2028399,2,ET JA3 Hash - Possible Malware - Various RigEK/Cryptowall/Dridex ,Unknown Traffic,3,TCP,192.168.2.19,49526,5.9.110.236,9001
+SSL Alert,Command and Control,04/18/2017,18:37:57.991704,1,2028809,2,ET JA3 Hash - [Abuse.ch] Possible Ransomware ,Unknown Traffic,3,TCP,192.168.2.19,49526,5.9.110.236,9001
+SSL Alert,Command and Control,04/18/2017,18:37:59.590969,1,2028399,2,ET JA3 Hash - Possible Malware - Various RigEK/Cryptowall/Dridex ,Unknown Traffic,3,TCP,192.168.2.19,49529,92.222.103.233,9001
+SSL Alert,Command and Control,04/18/2017,18:37:59.590969,1,2028809,2,ET JA3 Hash - [Abuse.ch] Possible Ransomware ,Unknown Traffic,3,TCP,192.168.2.19,49529,92.222.103.233,9001
+Tor Alert,Data Exfiltartion,04/18/2017,18:37:55.343835,1,2522603,4407,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 604 ,Misc Attack,2,TCP,46.165.230.5,443,192.168.2.19,49524
+Policy Alert,Data Exfiltartion,04/18/2017,18:37:33.867877,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49511
+Policy Alert,Data Exfiltartion,04/18/2017,18:37:58.115725,1,2018789,3,ET POLICY TLS possible TOR SSL traffic ,Misc activity,3,TCP,5.9.110.236,9001,192.168.2.19,49526
+Policy Alert,Data Exfiltartion,04/18/2017,18:37:59.871447,1,2018789,3,ET POLICY TLS possible TOR SSL traffic ,Misc activity,3,TCP,92.222.103.233,9001,192.168.2.19,49529
+Policy Alert,Data Exfiltartion,04/18/2017,18:38:00.044883,1,2018789,3,ET POLICY TLS possible TOR SSL traffic ,Misc activity,3,TCP,176.9.38.38,9001,192.168.2.19,49528
+Policy Alert,Data Exfiltartion,04/18/2017,18:38:58.419063,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49538
+Policy Alert,Data Exfiltartion,04/18/2017,18:40:22.523095,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49545
+Policy Alert,Data Exfiltartion,04/18/2017,18:41:47.095282,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49547
+Policy Alert,Data Exfiltartion,04/18/2017,18:43:11.494229,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49549
+Policy Alert,Data Exfiltartion,04/18/2017,18:46:01.608245,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49555
+Policy Alert,Data Exfiltartion,04/18/2017,18:44:36.994633,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,51.141.33.47,80,192.168.2.19,49551

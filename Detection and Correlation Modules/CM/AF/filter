@@ -1,0 +1,12 @@
+from subprocess import call
+import sys
+import pandas as pd
+import glob
+
+df = pd.read_csv("CM/result.csv")
+
+df = df.drop(df[df.sign_id == 2014726].index)
+
+df = df.drop_duplicates(subset=['date', 'fase'])
+
+df.to_csv("CM/AF/filtered.csv", index=False, encoding='utf-8-sig')

@@ -1,0 +1,29 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,02/20/2020,00:23:59.203406,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49492
+Exe Alert,Delivery,02/20/2020,00:25:46.228382,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49495
+Exe Alert,Delivery,02/20/2020,00:25:46.229376,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49496
+Exe Alert,Delivery,02/20/2020,00:26:26.421908,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49499
+Exe Alert,Delivery,02/20/2020,00:26:26.426763,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49498
+Exe Alert,Delivery,02/20/2020,00:27:04.846791,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49502
+Exe Alert,Delivery,02/20/2020,00:27:43.073592,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49503
+Exe Alert,Delivery,02/20/2020,00:29:07.839247,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49507
+Exe Alert,Delivery,02/20/2020,00:29:07.839455,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49508
+Exe Alert,Delivery,02/20/2020,00:29:46.088663,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49510
+Exe Alert,Delivery,02/20/2020,00:30:24.571746,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49512
+Exe Alert,Delivery,02/20/2020,00:31:03.049070,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49514
+Exe Alert,Delivery,02/20/2020,00:32:59.349100,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49520
+Exe Alert,Delivery,02/20/2020,00:24:04.448072,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49493
+Exe Alert,Delivery,02/20/2020,00:24:19.252536,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49494
+Exe Alert,Delivery,02/20/2020,00:27:04.834654,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49501
+Exe Alert,Delivery,02/20/2020,00:27:43.078611,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49504
+Exe Alert,Delivery,02/20/2020,00:28:23.487578,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49506
+Exe Alert,Delivery,02/20/2020,00:29:46.083531,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49509
+Exe Alert,Delivery,02/20/2020,00:30:24.569760,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49511
+Exe Alert,Delivery,02/20/2020,00:31:03.049339,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49513
+Exe Alert,Delivery,02/20/2020,00:31:41.212600,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49515
+Exe Alert,Delivery,02/20/2020,00:31:41.212829,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49516
+Exe Alert,Delivery,02/20/2020,00:32:20.376408,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49518
+Exe Alert,Delivery,02/20/2020,00:32:20.377847,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49519
+Exe Alert,Delivery,02/20/2020,00:32:59.344201,1,2025194,3,ET HUNTING Observed Let's Encrypt Certificate for Suspicious TLD (.xyz) ,Potentially Bad Traffic,2,TCP,45.147.200.7,443,192.168.4.239,49521
+Exploit Kit Alert,Exploitation,02/20/2020,00:23:41.051083,1,2028866,2,ET EXPLOIT_KIT Spelevo Download Payload Landing ,A Network Trojan was detected,1,TCP,185.159.80.223,80,192.168.4.239,49487
+Exploit Kit Alert,Exploitation,02/20/2020,00:23:47.195340,1,2028865,4,ET EXPLOIT_KIT Spelevo VBS Payload Downloaded ,Exploit Kit Activity Detected,1,TCP,192.168.4.239,49487,185.159.80.223,80

@@ -1,0 +1,20 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,03/03/2018,06:43:13.964454,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,57935,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:15.485085,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,57032,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:17.539641,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,62860,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:17.744088,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,62861,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:18.696822,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,57137,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:43:39.232264,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,50454,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:21.570089,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,62000,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:36.972785,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,49685,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:43:43.561351,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,63520,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:11.751656,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,62223,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:25.763942,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,61743,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:29.257611,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,63605,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:33.384578,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,54866,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:41.727751,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,62098,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:44:47.624155,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,51220,95.213.199.132,80
+Exe Alert,Delivery,03/03/2018,06:45:14.842089,1,2018009,5,ET HUNTING Suspicious HTTP Request to .bit domain ,Potentially Bad Traffic,2,TCP,192.168.4.49,50804,95.213.199.132,80
+Malware Alert,Installation,03/03/2018,06:41:13.761888,1,2024848,3,ET MALWARE Trojan.JS.Agent.dwz Checkin ,Malware Command and Control Activity Detected,1,TCP,192.168.4.49,49359,185.243.112.38,80
+Malware Alert,Installation,03/03/2018,06:41:13.761888,1,2024849,3,ET MALWARE [PTsecurity] Trojan.JS.Agent.dwz Checkin 1 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.49,49359,185.243.112.38,80
+Malware Alert,Installation,03/03/2018,06:41:13.761888,1,2025530,4,ET MALWARE [PTsecurity] Trojan.JS.Agent.dwz Checkin 2 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.49,49359,185.243.112.38,80

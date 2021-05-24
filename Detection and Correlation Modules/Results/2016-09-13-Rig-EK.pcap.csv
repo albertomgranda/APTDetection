@@ -1,0 +1,13 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,09/13/2016,22:51:14.697764,1,2022894,8,ET HUNTING SUSPICIOUS Firesale gTLD IE Flash request to set non-standard filename (some overlap with 2021752) ,A Network Trojan was detected,1,TCP,192.168.4.140,49212,31.184.193.168,80
+Exe Alert,Delivery,09/13/2016,22:51:14.697764,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.4.140,49212,31.184.193.168,80
+Exe Alert,Delivery,09/13/2016,22:51:14.697838,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,31.184.193.168,80,192.168.4.140,49212
+Exe Alert,Delivery,09/13/2016,22:51:17.990435,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,185.141.25.75,80,192.168.4.140,49215
+Exe Alert,Delivery,09/13/2016,22:51:18.587250,1,2015704,6,ET INFO DoSWF Flash Encryption Banner ,Attempted User Privilege Gain,1,TCP,185.141.25.75,80,192.168.4.140,49215
+Exploit Kit Alert,Exploitation,09/13/2016,22:51:16.953498,1,2020722,4,ET EXPLOIT_KIT RIG Landing URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.4.140,49215,185.141.25.75,80
+Exploit Kit Alert,Exploitation,09/13/2016,22:51:17.425786,1,2023199,3,ET EXPLOIT_KIT RIG EK Landing Sep 13 2016 (b642) ,Exploit Kit Activity Detected,1,TCP,185.141.25.75,80,192.168.4.140,49215
+Exploit Kit Alert,Exploitation,09/13/2016,22:51:17.425786,1,2023200,3,ET EXPLOIT_KIT RIG EK Landing Sep 13 2016 (b643) ,Exploit Kit Activity Detected,1,TCP,185.141.25.75,80,192.168.4.140,49215
+Exploit Kit Alert,Exploitation,09/13/2016,22:51:17.990351,1,2020721,4,ET EXPLOIT_KIT RIG Exploit URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.4.140,49215,185.141.25.75,80
+Exploit Kit Alert,Exploitation,09/13/2016,22:51:23.294067,1,2020720,3,ET EXPLOIT_KIT RIG Payload URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.4.140,49215,185.141.25.75,80
+Exploit Kit Alert,Exploitation,09/13/2016,22:51:23.994615,1,2022916,3,ET EXPLOIT_KIT RIG EK Payload Jun 26 2016 ,Exploit Kit Activity Detected,1,TCP,185.141.25.75,80,192.168.4.140,49215
+Policy Alert,Data Exfiltartion,09/13/2016,22:51:14.697764,1,2014726,127,ET POLICY Outdated Flash Version M1 ,Potential Corporate Privacy Violation,1,TCP,192.168.4.140,49212,31.184.193.168,80

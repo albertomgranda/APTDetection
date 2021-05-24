@@ -1,0 +1,4 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Phising Alert,Delivery,11/01/2016,20:56:46.483804,1,2018302,5,ET PHISHING Possible Phish - Mirrored Website Comment Observed ,A Network Trojan was detected,1,TCP,185.93.187.109,80,192.168.1.95,49334
+Exe Alert,Delivery,11/01/2016,20:56:45.830136,1,2030802,1,ET HUNTING Suspicious GET To gate.php with no Referer ,Potentially Bad Traffic,2,TCP,192.168.1.95,49334,185.93.187.109,80
+Malware Alert,Installation,11/01/2016,21:08:25.929867,1,2023895,5,ET MALWARE Qadars CnC DNS Lookup (liveskansys.com) ,Malware Command and Control Activity Detected,1,UDP,192.168.1.95,53761,192.168.1.1,53

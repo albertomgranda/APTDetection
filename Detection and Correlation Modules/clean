@@ -1,0 +1,58 @@
+from subprocess import call
+
+import time
+
+#Borra logs Fase 1
+
+call(["sudo","rm","DM/1.Reconnaissance/fast.log"])
+
+call(["rm","DM/1.Reconnaissance/logs1.csv"])
+
+#Borra logs Fase 2
+
+
+#Borra logs Fase 3
+
+call(["sudo","rm","DM/3.Delivery/Phishing/fast.log"])
+
+call(["rm","DM/3.Delivery/Phishing/logs3.csv"])
+
+call(["sudo","rm","DM/3.Delivery/Exe/fast.log"])
+
+call(["rm","DM/3.Delivery/Exe/logs3.csv"])
+
+#Borra logs Fase 4
+
+call(["sudo","rm","DM/4.Exploitation/Exploit/fast.log"])
+
+call(["rm","DM/4.Exploitation/Exploit/logs4.csv"])
+
+call(["sudo","rm","DM/4.Exploitation/ExploitKit/fast.log"])
+
+call(["rm","DM/4.Exploitation/ExploitKit/logs4.csv"])
+
+#Borra logs Fase 5
+
+call(["sudo","rm","DM/5.Installation/fast.log"])
+
+call(["rm","DM/5.Installation/logs5.csv"])
+
+#Borra logs Fase 6
+
+call(["sudo","rm","DM/6.C2/C2/fast.log"])
+
+call(["rm","DM/6.C2/C2/logs6.csv"])
+
+call(["sudo","rm","DM/6.C2/SSL/fast.log"])
+
+call(["rm","DM/6.C2/SSL/logs6.csv"])
+
+#Borra logs Fase 7
+
+call(["sudo","rm","DM/7.Actions/Tor/fast.log"])
+
+call(["rm","DM/7.Actions/Tor/logs7.csv"])
+
+call(["sudo","rm","DM/7.Actions/Policy/fast.log"])
+
+call(["rm","DM/7.Actions/Policy/logs7.csv"])

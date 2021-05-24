@@ -1,0 +1,8 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exploit Alert,Exploitation,08/05/2018,14:10:35.840397,1,2024449,4,ET EXPLOIT SUSPICIOUS Possible CVE-2017-0199 IE7/NoCookie/Referer HTA dl ,Attempted User Privilege Gain,1,TCP,192.168.4.201,49270,185.17.122.166,80
+Exploit Kit Alert,Exploitation,08/05/2018,14:10:38.474440,1,2025437,3,ET EXPLOIT_KIT [PTsecurity] Grandsoft EK Payload ,Exploit Kit Activity Detected,1,TCP,185.17.122.166,80,192.168.4.201,49271
+Malware Alert,Installation,08/05/2018,14:11:11.364295,1,2025885,3,ET MALWARE AZORult Variant.4 Checkin M2 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.201,49274,169.239.129.28,80
+Malware Alert,Installation,08/05/2018,14:11:12.807322,1,2029141,1,ET MALWARE AZORult v3.2 Server Response M3 ,Malware Command and Control Activity Detected,1,TCP,169.239.129.28,80,192.168.4.201,49274
+Malware Alert,Installation,08/05/2018,14:11:31.366440,1,2016858,11,ET MALWARE Generic - POST To .php w/Extended ASCII Characters (Likely Zeus Derivative) ,A Network Trojan was detected,1,TCP,192.168.4.201,49275,169.239.129.28,80
+Policy Alert,Data Exfiltartion,08/05/2018,14:10:35.840397,1,2022520,6,ET POLICY Possible HTA Application Download ,Potentially Bad Traffic,2,TCP,192.168.4.201,49270,185.17.122.166,80
+Policy Alert,Data Exfiltartion,08/05/2018,14:10:30.938784,1,2022520,6,ET POLICY Possible HTA Application Download ,Potentially Bad Traffic,2,TCP,192.168.4.201,49268,185.17.122.166,80

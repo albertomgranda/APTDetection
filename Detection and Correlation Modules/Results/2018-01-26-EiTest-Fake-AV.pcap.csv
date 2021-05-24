@@ -1,0 +1,7 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exploit Kit Alert,Exploitation,01/26/2018,05:34:45.350054,1,2024493,3,ET EXPLOIT_KIT EITest Inject July 25 2017 ,Exploit Kit Activity Detected,1,TCP,66.23.252.226,80,192.168.2.22,49190
+Exploit Kit Alert,Exploitation,01/26/2018,05:35:14.853746,1,2022466,7,ET EXPLOIT_KIT Possible Keitaro TDS Redirect ,Exploit Kit Activity Detected,1,TCP,204.155.28.5,80,192.168.2.22,49247
+Policy Alert,Data Exfiltartion,01/26/2018,05:36:19.187256,1,2012810,12,ET POLICY HTTP Request to a *.tk domain ,Potentially Bad Traffic,2,TCP,192.168.2.22,49262,185.159.83.48,80
+Policy Alert,Data Exfiltartion,01/26/2018,05:36:19.188031,1,2012810,12,ET POLICY HTTP Request to a *.tk domain ,Potentially Bad Traffic,2,TCP,192.168.2.22,49261,185.159.83.48,80
+Policy Alert,Data Exfiltartion,01/26/2018,05:35:05.349491,1,2012810,12,ET POLICY HTTP Request to a *.tk domain ,Potentially Bad Traffic,2,TCP,192.168.2.22,49248,185.159.83.48,80
+Policy Alert,Data Exfiltartion,01/26/2018,05:35:05.439908,1,2012810,12,ET POLICY HTTP Request to a *.tk domain ,Potentially Bad Traffic,2,TCP,192.168.2.22,49248,185.159.83.48,80

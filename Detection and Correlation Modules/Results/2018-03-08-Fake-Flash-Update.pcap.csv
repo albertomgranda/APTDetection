@@ -1,0 +1,17 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,03/08/2018,05:02:48.806259,1,2016141,7,ET INFO Executable Download from dotted-quad Host ,A Network Trojan was detected,1,TCP,192.168.4.138,49412,91.243.80.120,80
+Exe Alert,Delivery,03/08/2018,05:02:49.289267,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,91.243.80.120,80,192.168.4.138,49412
+Exe Alert,Delivery,03/08/2018,05:02:49.289267,1,2021076,2,ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response ,Potentially Bad Traffic,2,TCP,91.243.80.120,80,192.168.4.138,49412
+Exe Alert,Delivery,03/08/2018,05:02:49.289267,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Exe Alert,Delivery,03/08/2018,05:03:18.512762,1,2027257,4,ET INFO Dotted Quad Host RTF Request ,Potentially Bad Traffic,2,TCP,192.168.4.138,49414,91.243.80.120,80
+Malware Alert,Installation,03/08/2018,05:02:45.768225,1,2024848,3,ET MALWARE Trojan.JS.Agent.dwz Checkin ,Malware Command and Control Activity Detected,1,TCP,192.168.4.138,49411,185.243.112.38,80
+Malware Alert,Installation,03/08/2018,05:02:45.768225,1,2024849,3,ET MALWARE [PTsecurity] Trojan.JS.Agent.dwz Checkin 1 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.138,49411,185.243.112.38,80
+Malware Alert,Installation,03/08/2018,05:02:45.768225,1,2025530,4,ET MALWARE [PTsecurity] Trojan.JS.Agent.dwz Checkin 2 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.138,49411,185.243.112.38,80
+Malware Alert,Installation,03/08/2018,05:02:48.806535,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Malware Alert,Installation,03/08/2018,05:02:48.806535,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Malware Alert,Installation,03/08/2018,05:02:48.806535,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Malware Alert,Installation,03/08/2018,05:02:49.289267,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Malware Alert,Installation,03/08/2018,05:02:49.289267,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Malware Alert,Installation,03/08/2018,05:02:49.289267,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Malware Alert,Installation,03/08/2018,05:02:49.289267,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,91.243.80.120,80,192.168.4.138,49412
+Policy Alert,Data Exfiltartion,03/08/2018,05:02:49.289267,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,91.243.80.120,80,192.168.4.138,49412

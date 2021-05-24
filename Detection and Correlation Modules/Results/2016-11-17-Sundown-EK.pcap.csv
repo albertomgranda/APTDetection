@@ -1,0 +1,22 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,11/17/2016,05:42:00.099679,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,164.132.116.52,80,192.168.1.5,49911
+Exe Alert,Delivery,11/17/2016,05:42:00.129166,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,164.132.116.52,80,192.168.1.5,49910
+Exe Alert,Delivery,11/17/2016,05:41:54.983916,1,2014473,5,ET INFO JAVA - Java Archive Download By Vulnerable Client ,A Network Trojan was detected,1,TCP,164.132.116.52,80,192.168.1.5,49910
+Exe Alert,Delivery,11/17/2016,05:41:54.983916,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Exe Alert,Delivery,11/17/2016,05:41:54.983916,1,2014520,7,ET INFO EXE - Served Attached HTTP ,Misc activity,3,TCP,149.202.67.202,80,192.168.1.5,49914
+Exploit Kit Alert,Exploitation,11/17/2016,05:42:00.873781,1,2023313,2,ET EXPLOIT_KIT Flash Exploit Likely SunDown EK ,Exploit Kit Activity Detected,1,TCP,164.132.116.52,80,192.168.1.5,49910
+Exploit Kit Alert,Exploitation,11/17/2016,05:42:00.874114,1,2018402,5,ET EXPLOIT_KIT DRIVEBY Possible Goon/Infinity/Magnitude EK SilverLight Exploit ,Exploit Kit Activity Detected,1,TCP,192.168.1.5,49910,164.132.116.52,80
+Malware Alert,Installation,11/17/2016,05:42:01.831843,1,2013036,7,ET MALWARE Java EXE Download by Vulnerable Version - Likely Driveby ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Malware Alert,Installation,11/17/2016,05:42:01.831843,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Malware Alert,Installation,11/17/2016,05:42:01.831843,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Malware Alert,Installation,11/17/2016,05:43:24.984547,1,2025142,4,ET MALWARE Sharik/Smoke CnC Beacon 8 ,Malware Command and Control Activity Detected,1,TCP,192.168.1.5,49969,81.177.27.6,80
+Malware Alert,Installation,11/17/2016,05:44:17.845596,1,2025142,4,ET MALWARE Sharik/Smoke CnC Beacon 8 ,Malware Command and Control Activity Detected,1,TCP,192.168.1.5,49971,81.177.27.6,80
+Malware Alert,Installation,11/17/2016,05:41:54.983916,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Malware Alert,Installation,11/17/2016,05:41:54.983916,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Malware Alert,Installation,11/17/2016,05:41:54.983916,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Malware Alert,Installation,11/17/2016,05:41:54.983916,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,149.202.67.202,80,192.168.1.5,49914
+Policy Alert,Data Exfiltartion,11/17/2016,05:44:17.845596,1,2014170,6,ET POLICY HTTP Request to .su TLD (Soviet Union) Often Malware Related ,Potentially Bad Traffic,2,TCP,192.168.1.5,49971,81.177.27.6,80
+Policy Alert,Data Exfiltartion,11/17/2016,05:42:00.132462,1,2014726,127,ET POLICY Outdated Flash Version M1 ,Potential Corporate Privacy Violation,1,TCP,192.168.1.5,49909,164.132.116.52,80
+Policy Alert,Data Exfiltartion,11/17/2016,05:43:24.984547,1,2014170,6,ET POLICY HTTP Request to .su TLD (Soviet Union) Often Malware Related ,Potentially Bad Traffic,2,TCP,192.168.1.5,49969,81.177.27.6,80
+Policy Alert,Data Exfiltartion,11/17/2016,05:44:47.036794,1,2014170,6,ET POLICY HTTP Request to .su TLD (Soviet Union) Often Malware Related ,Potentially Bad Traffic,2,TCP,192.168.1.5,49974,81.177.27.6,80
+Policy Alert,Data Exfiltartion,11/17/2016,05:41:54.983916,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,149.202.67.202,80,192.168.1.5,49914

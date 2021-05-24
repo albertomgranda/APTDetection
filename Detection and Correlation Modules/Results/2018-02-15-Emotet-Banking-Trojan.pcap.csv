@@ -1,0 +1,15 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,02/15/2018,11:40:36.855014,1,2016538,3,ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download ,Potentially Bad Traffic,2,TCP,208.91.198.231,80,192.168.4.180,49189
+Exe Alert,Delivery,02/15/2018,11:40:36.855014,1,2018572,2,ET HUNTING HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families)  ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Exe Alert,Delivery,02/15/2018,11:40:36.855014,1,2014520,7,ET INFO EXE - Served Attached HTTP ,Misc activity,3,TCP,208.91.198.231,80,192.168.4.180,49189
+Exe Alert,Delivery,02/15/2018,11:40:51.623876,1,2018358,10,ET HUNTING GENERIC SUSPICIOUS POST to Dotted Quad with Fake Browser 1 ,Potentially Bad Traffic,2,TCP,192.168.4.180,49192,84.200.208.98,80
+Exe Alert,Delivery,02/15/2018,11:41:44.282489,1,2018358,10,ET HUNTING GENERIC SUSPICIOUS POST to Dotted Quad with Fake Browser 1 ,Potentially Bad Traffic,2,TCP,192.168.4.180,49193,71.244.60.231,4143
+Exe Alert,Delivery,02/15/2018,11:41:52.216535,1,2018358,10,ET HUNTING GENERIC SUSPICIOUS POST to Dotted Quad with Fake Browser 1 ,Potentially Bad Traffic,2,TCP,192.168.4.180,49193,71.244.60.231,4143
+Malware Alert,Installation,02/15/2018,11:40:36.477394,1,2020569,1,ET MALWARE Unknown Trojan Downloading PE via MSSQL Connection to Non-Standard Port ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Malware Alert,Installation,02/15/2018,11:40:36.477394,1,2022050,3,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Malware Alert,Installation,02/15/2018,11:40:36.855014,1,2021312,2,ET MALWARE Likely Malicious wininet UA Downloading EXE ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Malware Alert,Installation,02/15/2018,11:40:36.855014,1,2022051,2,ET MALWARE Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Malware Alert,Installation,02/15/2018,11:40:36.855014,1,2022053,2,ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2 ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Malware Alert,Installation,02/15/2018,11:40:36.855014,1,2022653,2,ET MALWARE Likely Evil EXE download from WinHttpRequest non-exe extension ,A Network Trojan was detected,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Policy Alert,Data Exfiltartion,02/15/2018,11:40:36.854531,1,2018959,4,ET POLICY PE EXE or DLL Windows file download HTTP ,Potential Corporate Privacy Violation,1,TCP,208.91.198.231,80,192.168.4.180,49189
+Policy Alert,Data Exfiltartion,02/15/2018,11:39:50.713940,1,2019613,4,ET POLICY Office Document Download Containing AutoOpen Macro ,Potential Corporate Privacy Violation,1,TCP,192.169.197.235,80,192.168.4.180,49185

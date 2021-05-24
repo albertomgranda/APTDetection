@@ -1,0 +1,4 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Malware Alert,Installation,08/07/2017,18:48:48.975613,1,2014411,13,ET MALWARE Fareit/Pony Downloader Checkin 2 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.134,49205,77.120.123.209,80
+Malware Alert,Installation,08/07/2017,18:48:50.448860,1,2014411,13,ET MALWARE Fareit/Pony Downloader Checkin 2 ,Malware Command and Control Activity Detected,1,TCP,192.168.4.134,49206,77.120.123.209,80
+Policy Alert,Data Exfiltartion,08/07/2017,18:48:40.247011,1,2021997,4,ET POLICY External IP Lookup api.ipify.org ,Device Retrieving External IP Address Detected,2,TCP,192.168.4.134,49202,184.73.220.206,80

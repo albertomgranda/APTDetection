@@ -1,0 +1,29 @@
+from subprocess import call
+import sys
+import pandas as pd
+import glob
+
+#Merge
+
+path='Results'
+
+all_files= glob.glob(path + "/*.csv")
+
+li=[]
+
+for filename in all_files:
+    df = pd.read_csv(filename, index_col=None, header=0)
+    li.append(df)
+
+res = pd.concat(li, axis=0, ignore_index=True)
+
+res.to_csv("CM/result.csv", index=False, encoding='utf-8-sig')
+
+#Alert Filtering
+
+call(["python3","CM/AF/filter"])
+
+#Alert Clustering
+
+call(["python3","CM/AC/cluster"])
+

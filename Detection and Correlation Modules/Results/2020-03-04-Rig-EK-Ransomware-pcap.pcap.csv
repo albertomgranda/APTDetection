@@ -1,0 +1,3 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exploit Kit Alert,Exploitation,03/05/2020,01:15:56.671419,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.4.231,49371,206.189.156.214,80
+Exploit Kit Alert,Exploitation,03/05/2020,01:16:03.968544,1,2024049,4,ET EXPLOIT_KIT RIG EK URI Struct Mar 13 2017 M2 ,Exploit Kit Activity Detected,1,TCP,192.168.4.231,49373,206.189.156.214,80

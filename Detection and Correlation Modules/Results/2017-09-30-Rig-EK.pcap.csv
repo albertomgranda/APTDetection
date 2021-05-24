@@ -1,0 +1,5 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,09/30/2017,06:31:18.369047,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,188.225.82.250,80,192.168.4.52,49206
+Exploit Kit Alert,Exploitation,09/30/2017,06:31:17.107352,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.4.52,49206,188.225.82.250,80
+Exploit Kit Alert,Exploitation,09/30/2017,06:31:18.369032,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.4.52,49206,188.225.82.250,80
+Policy Alert,Data Exfiltartion,09/30/2017,06:31:18.369032,1,2014726,127,ET POLICY Outdated Flash Version M1 ,Potential Corporate Privacy Violation,1,TCP,192.168.4.52,49206,188.225.82.250,80

@@ -1,0 +1,13 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,11/10/2016,21:48:45.821972,1,2023882,4,ET INFO HTTP Request to a *.top domain ,Potentially Bad Traffic,2,TCP,192.168.100.11,49313,174.128.253.197,80
+Exe Alert,Delivery,11/10/2016,21:48:47.097639,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,174.128.253.197,80,192.168.100.11,49313
+Exe Alert,Delivery,11/10/2016,21:49:44.292752,1,2027250,4,ET INFO Dotted Quad Host DLL Request ,Potentially Bad Traffic,2,TCP,192.168.100.11,49318,51.254.58.227,80
+Exploit Kit Alert,Exploitation,11/10/2016,21:48:45.821972,1,2020722,4,ET EXPLOIT_KIT RIG Landing URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.100.11,49313,174.128.253.197,80
+Exploit Kit Alert,Exploitation,11/10/2016,21:48:46.155241,1,2023198,3,ET EXPLOIT_KIT RIG EK Landing Sep 13 2016 (b641) ,Exploit Kit Activity Detected,1,TCP,174.128.253.197,80,192.168.100.11,49313
+Exploit Kit Alert,Exploitation,11/10/2016,21:48:46.155241,1,2023199,3,ET EXPLOIT_KIT RIG EK Landing Sep 13 2016 (b642) ,Exploit Kit Activity Detected,1,TCP,174.128.253.197,80,192.168.100.11,49313
+Exploit Kit Alert,Exploitation,11/10/2016,21:48:47.097613,1,2020721,4,ET EXPLOIT_KIT RIG Exploit URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.100.11,49313,174.128.253.197,80
+Exploit Kit Alert,Exploitation,11/10/2016,21:48:50.502364,1,2020720,3,ET EXPLOIT_KIT RIG Payload URI Struct March 20 2015 ,Exploit Kit Activity Detected,1,TCP,192.168.100.11,49313,174.128.253.197,80
+Exploit Kit Alert,Exploitation,11/10/2016,21:48:51.209016,1,2022916,3,ET EXPLOIT_KIT RIG EK Payload Jun 26 2016 ,Exploit Kit Activity Detected,1,TCP,174.128.253.197,80,192.168.100.11,49313
+Malware Alert,Installation,11/10/2016,21:49:51.979298,1,2021813,7,ET MALWARE Ursnif Variant CnC Beacon ,Malware Command and Control Activity Detected,1,TCP,192.168.100.11,49320,192.42.118.104,80
+Malware Alert,Installation,11/10/2016,21:49:44.292752,1,2023471,4,ET MALWARE Possible Malicious Tor Module Download ,A Network Trojan was detected,1,TCP,192.168.100.11,49318,51.254.58.227,80
+Malware Alert,Installation,11/10/2016,21:49:52.294736,1,2021813,7,ET MALWARE Ursnif Variant CnC Beacon ,Malware Command and Control Activity Detected,1,TCP,192.168.100.11,49321,104.20.4.21,80

@@ -1,0 +1,6 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,08/08/2016,19:36:25.196801,1,2018216,5,ET INFO HTTP Connection To DDNS Domain Hopto.org ,Potentially Bad Traffic,2,TCP,192.168.4.196,49289,83.217.27.178,80
+Exe Alert,Delivery,08/08/2016,19:36:26.965563,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,51.254.30.225,80,192.168.4.196,49293
+Exe Alert,Delivery,08/08/2016,19:36:28.458758,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,51.254.30.225,80,192.168.4.196,49293
+Exploit Kit Alert,Exploitation,08/08/2016,19:37:40.170728,1,2022962,4,ET EXPLOIT_KIT Evil Redirector Leading to EK Jul 12 2016 ,Exploit Kit Activity Detected,1,TCP,83.217.27.178,80,192.168.4.196,49289
+Policy Alert,Data Exfiltartion,08/08/2016,19:36:26.965425,1,2014726,127,ET POLICY Outdated Flash Version M1 ,Potential Corporate Privacy Violation,1,TCP,192.168.4.196,49293,51.254.30.225,80

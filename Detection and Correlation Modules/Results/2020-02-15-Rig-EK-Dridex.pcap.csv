@@ -1,0 +1,11 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exploit Kit Alert,Exploitation,02/15/2020,22:55:14.081288,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.2.8,49213,91.210.170.30,80
+Malware Alert,Installation,02/15/2020,23:06:55.181413,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,107.170.158.58,1443,192.168.2.8,49249
+Malware Alert,Installation,02/15/2020,23:08:49.486829,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,54.38.143.246,691,192.168.2.8,49252
+Malware Alert,Installation,02/15/2020,23:11:44.903772,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,92.38.128.47,3389,192.168.2.8,49258
+Malware Alert,Installation,02/15/2020,23:17:08.527366,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,109.123.107.19,443,192.168.2.8,49260
+Malware Alert,Installation,02/15/2020,23:17:17.805473,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,109.123.107.19,443,192.168.2.8,49262
+Malware Alert,Installation,02/15/2020,23:09:28.422948,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,54.38.143.246,691,192.168.2.8,49254
+Malware Alert,Installation,02/15/2020,23:11:39.440958,1,2023476,5,ET MALWARE ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) ,A Network Trojan was detected,1,TCP,92.38.128.47,3389,192.168.2.8,49256
+C2 Alert,Command and Control,02/15/2020,23:08:49.060677,1,900505073,1,Feodo Tracker: potential Dridex CnC Traffic detected ,A Network Trojan was detected,1,TCP,192.168.2.8,49252,54.38.143.246,691
+C2 Alert,Command and Control,02/15/2020,23:11:38.574787,1,900505076,1,Feodo Tracker: potential Dridex CnC Traffic detected ,A Network Trojan was detected,1,TCP,192.168.2.8,49256,92.38.128.47,3389

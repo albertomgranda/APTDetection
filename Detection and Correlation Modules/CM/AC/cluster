@@ -1,0 +1,69 @@
+from subprocess import call
+import sys
+import pandas as pd
+import glob
+import numpy as np
+import datetime
+from datetime import date
+
+df = pd.read_csv("CM/AF/filtered.csv")
+
+df.insert(0,"apt_id",0)
+
+n_apt=1
+
+ids=[]
+
+n=len(df.index)
+
+for i in range(n): 
+
+	if (df.iloc[i,df.columns.get_loc('apt_id')] in ids) == False:
+	
+		df.iloc[i,df.columns.get_loc('apt_id')] = n_apt
+		
+		ids.append(n_apt)
+		
+		n_apt = n_apt+1
+
+		d1 = df.iloc[i,df.columns.get_loc('date')]
+		
+		d1 = datetime.datetime.strptime(d1, '%m/%d/%Y')
+
+		d1 = d1.date()
+		
+		f1 = df.iloc[i,df.columns.get_loc('fase')]
+		
+		ipsource1 = df.iloc[i,df.columns.get_loc('from_addr')]
+		
+		ipdest1 = df.iloc[i,df.columns.get_loc('to_addr')]
+	
+		for j in range(i+1,n): 
+
+			d2 = df.iloc[j,df.columns.get_loc('date')]
+			
+			d2 = datetime.datetime.strptime(d2, '%m/%d/%Y')
+
+			d2 = d2.date()
+			
+			time = abs(d1 - d2)
+
+			time_days = time.days
+			
+			f2 = df.iloc[j,df.columns.get_loc('fase')]
+			
+			ipsource2 = df.iloc[j,df.columns.get_loc('from_addr')]
+		
+			ipdest2 = df.iloc[j,df.columns.get_loc('to_addr')]
+
+			if (f1 != f2):
+			
+				if (time_days < 5) | (ipsource1 == ipsource2) | (ipdest1 == ipdest2): 
+		
+					df.iloc[j,df.columns.get_loc('apt_id')] = df.iloc[i,df.columns.get_loc('apt_id')]
+			
+				
+		
+		
+	
+df.to_csv("CM/AC/clustered.csv", index=False, encoding='utf-8-sig')

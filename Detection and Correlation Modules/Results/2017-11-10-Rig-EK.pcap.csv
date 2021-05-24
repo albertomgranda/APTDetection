@@ -1,0 +1,7 @@
+﻿alert_type,fase,date,time,severity,sign_id,rev,rule_name,classification,priority,protocol,from_addr,from_port,to_addr,to_port
+Exe Alert,Delivery,11/10/2017,09:46:24.324998,1,2031747,1,ET HUNTING Observed Interesting Content-Type Inbound (application/x-sh) ,Potential Corporate Privacy Violation,1,TCP,176.57.214.216,80,192.168.1.5,49191
+Exploit Kit Alert,Exploitation,11/10/2017,09:46:23.511322,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.5,49191,176.57.214.216,80
+Exploit Kit Alert,Exploitation,11/10/2017,09:46:25.822381,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.5,49193,176.57.214.216,80
+Exploit Kit Alert,Exploitation,11/10/2017,09:46:24.324744,1,2024381,4,ET EXPLOIT_KIT RIG EK URI Struct Jun 13 2017 ,Exploit Kit Activity Detected,1,TCP,192.168.1.5,49191,176.57.214.216,80
+Malware Alert,Installation,11/10/2017,09:50:08.148469,1,2018558,5,ET MALWARE Win32/Ramnit Checkin ,Malware Command and Control Activity Detected,1,TCP,192.168.1.5,49215,194.87.145.189,443
+Malware Alert,Installation,11/10/2017,09:50:09.166127,1,2018558,5,ET MALWARE Win32/Ramnit Checkin ,Malware Command and Control Activity Detected,1,TCP,192.168.1.5,49215,194.87.145.189,443
