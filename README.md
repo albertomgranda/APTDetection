@@ -39,9 +39,9 @@ sudo apt install suricata jq
 
 ### Detection and Correlation Modules
 
-*detect.py: Python script to use the Detection Module
-*correlate.py Python script to use the Correlation Module
-*clean.py Python script to remove the unnecessary logs
+* detect.py: Python script to use the Detection Module
+* correlate.py Python script to use the Correlation Module
+* clean.py Python script to remove the unnecessary logs
 
 #### DM
 
