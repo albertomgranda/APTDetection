@@ -45,7 +45,7 @@ sudo apt install suricata jq
 
 #### DM
 
-Contains the 10 detection modules divided by the 7 APT attack stage.
+Contains the 10 detection modules divided by the 7 APT attack stages
 
 Each modules contains the rule file and a parse.py script necessary for parsing the log files
 
