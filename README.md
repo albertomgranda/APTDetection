@@ -92,4 +92,5 @@ This command will merge all the csv files of the Results folder, filter and clus
 ### Machine Learning Module
 
 Open the Machine Learning Module.ipynb Jupyter Notebook and run the Pre-proccesing section
+
 Run the section corresponding to the ML model you want to generate and test
