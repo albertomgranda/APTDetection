@@ -77,7 +77,7 @@ Run the following commands in the Detection and Correlation Modules folder:
 > python3 clean
 ```
 
-A csv file with the same as the pcap file with the output alerts will be stored in the Results folder
+A csv file with the same name as the pcap file with the output alerts will be stored in the Results folder
 
 ### Correlation Module
 
